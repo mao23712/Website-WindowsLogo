@@ -1,0 +1,40 @@
+*{
+    transition: all 1s;
+}
+body{
+    background-color: #333;
+    padding: 100px;
+}
+.logo-window{
+    perspective: 100px;
+
+}
+.log-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: fit-content;
+    transform-style: preserve-3d;
+    transform: rotateY(-5deg);
+}
+.box{
+    width: 150px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid;
+}
+.box-1{
+    border-top-left-radius: 13%;
+    background: linear-gradient(135deg, #0ac5ff, #1582d5);
+}
+.box-2{
+    background: linear-gradient(135deg, #0ac5ff, #1582d5);
+    border-top-right-radius: 13%;
+}
+.box-3{
+    background: linear-gradient(135deg, #0ac5ff, #1582d5);
+    border-bottom-left-radius: 13%;
+}.box-4{
+    background: linear-gradient(135deg, #0ac5ff, #1582d5);
+   border-bottom-right-radius: 13%;
+}
